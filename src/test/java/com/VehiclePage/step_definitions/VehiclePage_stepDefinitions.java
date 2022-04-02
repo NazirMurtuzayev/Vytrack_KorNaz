@@ -1,5 +1,6 @@
 package com.VehiclePage.step_definitions;
 
+import com.VehiclePage.pages.BasePage;
 import com.VehiclePage.utilities.Driver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -8,7 +9,6 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import com.VehiclePage.pages.BasePage;
 import com.VehiclePage.pages.LoginPage;
 import com.VehiclePage.pages.VehiclePage;
 import com.VehiclePage.utilities.ConfigurationReader;
